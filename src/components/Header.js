@@ -8,7 +8,7 @@ const Header = () => {
     <div className='header'>
       <div className='logo'>
         <img src={logo} alt='logo'/>
-        <i className="fa-solid fa-bars"></i>
+       
       </div>
       <div className='main'>
       <input style={{width:"100%"}}type='text' placeholder='Search Company name, industry,website or EIN number'/> 
