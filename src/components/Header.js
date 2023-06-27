@@ -16,11 +16,12 @@ const Header = () => {
       <i class="fa fa-map-marker" aria-hidden="true"></i> 
       <input style={{width:"100%",color:'black',fontSize:"15px",fontFamily:'sans-serif',fontWeight:'bold'}}
       type="search" placeholder="Search" name="search"/>
-      <button type="submit"><i class="fa fa-search"></i></button>
+      <button className="btn" type="submit"><i class="fa fa-search"></i></button>
       </div>
       
       <div className='profile'>
-        <img src={profile} alt='profile'/>
+      
+        <img src={profile} alt='profile'/><box-icon name='menu'></box-icon>
       </div>
     </div>
     
