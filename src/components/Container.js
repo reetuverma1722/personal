@@ -27,7 +27,16 @@
 // export default Container;
 import React, { useState } from 'react';
 
-const MyHomePage = () => {
+// import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
+// import { ToggleButtonGroup } from '@mui/material';
+// import ToggleButton from 'toggle-button';
+// import ToggleButtonGroup from "toggle-button";
+// import ViewModuleIcon from "toggle-button";
+// import ViewListIcon from "toggle-button";
+// import ViewQuiltIcon from "toggle-button";
+// import view from "toggle-button";
+
+const Container = () => {
   const [dropdownvalue, setDropdownValue] = useState('Menu');
 
   const items = ['Menu', 'List', 'Aggregate', 'Save search', 'Search Filter'];
@@ -38,7 +47,22 @@ const MyHomePage = () => {
 
   return (
     <div>
-    
+    {/* <ToggleButtonGroup
+  orientation="vertical"
+  value={view}
+  exclusive */}
+  {/* // onChange={handleChange} */}
+
+  {/* <ToggleButton value="list" aria-label="list">
+    <ViewListIcon />
+  </ToggleButton>
+  <ToggleButton value="module" aria-label="module">
+    <ViewModuleIcon />
+  </ToggleButton>
+  <ToggleButton value="quilt" aria-label="quilt">
+    <ViewQuiltIcon />
+  </ToggleButton>
+</ToggleButtonGroup> */}
       <div>
         <select value={dropdownvalue} onChange={handleDropdownChange}>
           {items.map((item) => (
@@ -52,12 +76,12 @@ const MyHomePage = () => {
   );
 };
 
-const MyApp = () => {
-  return (
-    <div>
-      <MyHomePage />
-    </div>
-  );
-};
+// const MyApp = () => {
+//   return (
+//     <div>
+//       <MyHomePage />
+//     </div>
+//   );
+// };
 
-export default MyApp;
+export default Container;

@@ -4,6 +4,14 @@
     box-sizing: border-box;
     width: 100%;
 }
+.body{
+    width: 100%;
+}
+
 .sidebar-left{
     width:20%;
+}
+.sidebar-right{
+    
+    width: 80%;
 }
