@@ -11,12 +11,12 @@ const Header = () => {
        
       </div>
       <div className='main'>
-      <input style={{width:"100%"}}type='text' placeholder='Search Company name, industry,website or EIN number'/> 
-      <input  style={{width:"100%"}} type='text' placeholder='enter location by address,zip code ,city country or State'/>
-      <i class="fa fa-map-marker" aria-hidden="true"></i> 
+      <input type='text' placeholder='Search Company name, industry,website or EIN number'/> 
+      <input type='text' placeholder='enter location by address,zip code ,city country or State'/>
+      {/* <i class="fa fa-map-marker" aria-hidden="true"></i>  */}
       <input style={{width:"100%",color:'black',fontSize:"15px",fontFamily:'sans-serif',fontWeight:'bold'}}
       type="search" placeholder="Search" name="search"/>
-      <button className="btn" type="submit"><i class="fa fa-search"></i></button>
+      {/* <button className="btn" type="submit"><i class="fa fa-search"></i></button> */}
       </div>
       
       <div className='profile'>

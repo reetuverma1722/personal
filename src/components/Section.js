@@ -1,24 +1,28 @@
 import React from 'react';
-
+import "../assets/css/Section.css"
 
 import CountriesTable from './CountriesTable';
-import Container from './Container';
-// import MiddleContainer from './MiddleContainer';
+
+
+import Header from './Header';
+import Filter from './Filter';
+// import Table from './Table';
 
 
 const Section = () => {
   return (
     <>
-        <div className='sidebar-left'>
-        {/* <MiddleContainer/> */}
-        <Container/>
-         
+    <Header/><section className='main-container'>
+    <div className='sidebar-left' style={{paddingLeft:"30px",paddingTop:"30px",paddingRight:"50px"}}>
+      <Filter/>
+          
 </div>
 <div className='sidebar-right'>
-
   <CountriesTable/>
-
+  {/* <Table/> */}
 </div>
+    </section>
+        
     </>
     
     

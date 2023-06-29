@@ -1,6 +1,11 @@
-export const DummyData=[{
+ const DummyData=[{
+    icon:<box-icon type='solid' name='building'></box-icon>,
+    icons:<box-icon name='street-view' color='#1a1919' ></box-icon>,
+    heart:<box-icon name='heart' color='#d40003' ></box-icon>,
+    location:<box-icon name='map' type='solid' color='#f1af05' ></box-icon>,
+    description:"",
     Company:"Amazon angles",
-    Status:" active",
+    Status:" Active",
    growth :"8.9%",
     revenue:"$658.774n",
     Headcount:"1M",
@@ -8,31 +13,31 @@ export const DummyData=[{
 
 {
     Company:"qss technosoft",
-    Status:" active",
+    Status:" Active",
+    growth:"9.7%",
+    revenue:"$656.9k",
+    Headcount:"3M",
+},
+{
+    Company:"hcl technology",
+    Status:" Active",
     growth:"9.7%",
     revenue:"$656.9k",
     Headcount:"4M",
 },
 {
     Company:"qss technosoft",
-    Status:" active",
+    Status:" Active",
     growth:"9.7%",
     revenue:"$656.9k",
     Headcount:"4M",
 },
 {
-    Company:"qss technosoft",
-    Status:" active",
+    Company:" technosoft",
+    Status:" Active",
     growth:"9.7%",
     revenue:"$656.9k",
-    Headcount:"4M",
-},
-{
-    Company:"qss technosoft",
-    Status:" active",
-    growth:"9.7%",
-    revenue:"$656.9k",
-    Headcount:"4M",
+    Headcount:"78M",
 },
 {
     Company:"qss technosoft",
@@ -166,3 +171,4 @@ Company: "technosoft",
     Headcount:"4M",
 }
 ]
+export default DummyData;
