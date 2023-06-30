@@ -11,4 +11,4 @@ const Searchbox = () => {
   )
 }
 
-export default Searchbox
+export default Searchbox;
